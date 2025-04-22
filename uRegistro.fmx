@@ -415,7 +415,6 @@ object frmRegistro: TfrmRegistro
       'User_Name=SYSDBA '
       'Password=masterkey'
       'DriverID=FB')
-    Connected = True
     Left = 120
     Top = 408
   end
