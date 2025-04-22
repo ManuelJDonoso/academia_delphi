@@ -1,0 +1,99 @@
+inherited frmRegistro_Surface: TfrmRegistro_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited ScaledLayout1: TScaledLayout
+    OriginalWidth = 1080.000000000000000000
+    OriginalHeight = 1920.000000000000000000
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    inherited VertScrollBox1: TVertScrollBox
+      Size.Width = 1080.000000000000000000
+      Size.Height = 1920.000000000000000000
+      Viewport.Width = 1080.000000000000000000
+      Viewport.Height = 1920.000000000000000000
+      inherited GPL_datos: TGridPanelLayout
+        Size.Width = 1080.000000000000000000
+        inherited Layout1: TLayout
+          Size.Width = 359.963989257812500000
+          inherited tlb_nombre: TLabel
+            Size.Width = 349.963989257812500000
+          end
+          inherited TE_nombre: TEdit
+            Size.Width = 339.963989257812500000
+          end
+        end
+        inherited Layout2: TLayout
+          Position.X = 369.963989257812500000
+          Size.Width = 340.018005371093800000
+          inherited tlb_apellido1: TLabel
+            Size.Width = 330.018005371093800000
+          end
+          inherited TE_apellido1: TEdit
+            Size.Width = 320.018005371093800000
+          end
+        end
+        inherited Layout3: TLayout
+          Position.X = 719.981994628906300000
+          Size.Width = 360.018005371093800000
+          inherited tlb_apellido2: TLabel
+            Size.Width = 350.018005371093800000
+          end
+          inherited TE_apellido2: TEdit
+            Size.Width = 340.018005371093800000
+          end
+        end
+      end
+      inherited GPL_conexion: TGridPanelLayout
+        Size.Width = 1080.000000000000000000
+        inherited Layout7: TLayout
+          Size.Width = 359.963989257812500000
+          inherited tlb_usuario: TLabel
+            Size.Width = 339.963989257812500000
+          end
+          inherited TE_usuario: TEdit
+            Size.Width = 339.963989257812500000
+          end
+        end
+        inherited Layout8: TLayout
+          Position.X = 369.963989257812500000
+          Size.Width = 340.018005371093800000
+          inherited tlb_contasena: TLabel
+            Size.Width = 320.018005371093800000
+          end
+          inherited TE_contrasena: TEdit
+            Size.Width = 320.018005371093800000
+          end
+        end
+      end
+      inherited GPL_contacto: TGridPanelLayout
+        Size.Width = 1080.000000000000000000
+        inherited Layout4: TLayout
+          Size.Width = 359.963989257812500000
+          inherited tlb_email: TLabel
+            Size.Width = 349.963989257812500000
+          end
+          inherited TE_email: TEdit
+            Size.Width = 339.963989257812500000
+          end
+        end
+        inherited Layout5: TLayout
+          Position.X = 369.963989257812500000
+          Size.Width = 340.018005371093800000
+          inherited tlb_telefono: TLabel
+            Size.Width = 320.018005371093800000
+          end
+          inherited TE_telefono: TEdit
+            Size.Width = 320.018005371093800000
+          end
+        end
+      end
+      inherited GPL_botones: TGridPanelLayout
+        Size.Width = 1080.000000000000000000
+        inherited tbtn_registrar: TButton
+          Position.X = 500.000000000000000000
+        end
+      end
+    end
+  end
+end

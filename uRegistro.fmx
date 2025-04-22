@@ -1,0 +1,503 @@
+object frmRegistro: TfrmRegistro
+  Left = 0
+  Top = 0
+  Caption = 'Registro'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 0
+  object ScaledLayout1: TScaledLayout
+    Align = Client
+    OriginalWidth = 640.000000000000000000
+    OriginalHeight = 480.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 640.000000000000000000
+      Viewport.Height = 480.000000000000000000
+      object GPL_datos: TGridPanelLayout
+        Align = Top
+        Margins.Top = 10.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 640.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ColumnCollection = <
+          item
+            Value = 33.330000000000000000
+          end
+          item
+            Value = 33.334999084472660000
+          end
+          item
+            Value = 33.334999084472660000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Layout1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Layout2
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Layout3
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        object Layout1: TLayout
+          Align = Horizontal
+          Position.Y = 25.000000000000000000
+          Size.Width = 213.311996459960900000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object tlb_nombre: TLabel
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 203.311996459960900000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Nombre'
+            TabOrder = 0
+          end
+          object TE_nombre: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Position.X = 10.000000000000000000
+            Position.Y = 21.000000000000000000
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Size.Width = 193.311996459960900000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'introduce el nombre'
+            OnExit = TE_nombreExit
+          end
+        end
+        object Layout2: TLayout
+          Align = Horizontal
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 223.311996459960900000
+          Position.Y = 25.000000000000000000
+          Size.Width = 193.344009399414100000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object tlb_apellido1: TLabel
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 183.344009399414100000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Primer Apellido'
+            TabOrder = 0
+          end
+          object TE_apellido1: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Position.X = 10.000000000000000000
+            Position.Y = 21.000000000000000000
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Size.Width = 173.344009399414100000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'introduce el primer apellido'
+            OnExit = TE_apellido1Exit
+          end
+        end
+        object Layout3: TLayout
+          Align = Horizontal
+          Position.X = 426.656005859375000000
+          Position.Y = 25.000000000000000000
+          Size.Width = 213.343994140625000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object tlb_apellido2: TLabel
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 203.343994140625000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Segundo apellido'
+            TabOrder = 0
+          end
+          object TE_apellido2: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Position.X = 10.000000000000000000
+            Position.Y = 21.000000000000000000
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Size.Width = 193.343994140625000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'introduce el segundo apellido'
+            OnExit = TE_apellido2Exit
+          end
+        end
+      end
+      object GPL_conexion: TGridPanelLayout
+        Align = Top
+        Margins.Top = 10.000000000000000000
+        Position.Y = 230.000000000000000000
+        Size.Width = 640.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        ColumnCollection = <
+          item
+            Value = 33.330000000000000000
+          end
+          item
+            Value = 33.334999084472660000
+          end
+          item
+            Value = 33.334999084472660000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Layout7
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Layout8
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        object Layout7: TLayout
+          Align = Horizontal
+          Position.Y = 25.000000000000000000
+          Size.Width = 213.311996459960900000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object tlb_usuario: TLabel
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 193.311996459960900000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Usuario'
+            TabOrder = 0
+          end
+          object TE_usuario: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            ReadOnly = True
+            Position.X = 10.000000000000000000
+            Position.Y = 21.000000000000000000
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Size.Width = 193.311996459960900000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Muestra el usuario'
+          end
+        end
+        object Layout8: TLayout
+          Align = Horizontal
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 223.311996459960900000
+          Position.Y = 25.000000000000000000
+          Size.Width = 193.344009399414100000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object tlb_contasena: TLabel
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 173.344009399414100000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Contrase'#241'a'
+            TabOrder = 0
+          end
+          object TE_contrasena: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Password = True
+            Position.X = 10.000000000000000000
+            Position.Y = 21.000000000000000000
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Size.Width = 173.344009399414100000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'introduce la contrase'#241'a'
+          end
+        end
+      end
+      object GPL_contacto: TGridPanelLayout
+        Align = Top
+        Anchors = []
+        Margins.Top = 10.000000000000000000
+        Position.Y = 120.000000000000000000
+        Size.Width = 640.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 33.330000000000000000
+          end
+          item
+            Value = 33.334999084472660000
+          end
+          item
+            Value = 33.334999084472660000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Layout4
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Layout5
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        object Layout4: TLayout
+          Align = Horizontal
+          Position.Y = 25.000000000000000000
+          Size.Width = 213.311996459960900000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object tlb_email: TLabel
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 203.311996459960900000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Email'
+            TabOrder = 0
+          end
+          object TE_email: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Position.X = 10.000000000000000000
+            Position.Y = 21.000000000000000000
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Size.Width = 193.311996459960900000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'introduce el email'
+          end
+        end
+        object Layout5: TLayout
+          Align = Horizontal
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 223.311996459960900000
+          Position.Y = 25.000000000000000000
+          Size.Width = 193.344009399414100000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object tlb_telefono: TLabel
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 173.344009399414100000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Telefono'
+            TabOrder = 0
+          end
+          object TE_telefono: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Position.X = 10.000000000000000000
+            Position.Y = 21.000000000000000000
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Size.Width = 173.344009399414100000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'introduce el telefono'
+          end
+        end
+      end
+      object GPL_botones: TGridPanelLayout
+        Align = Top
+        Position.Y = 330.000000000000000000
+        Size.Width = 640.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = tbtn_registrar
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        object tbtn_registrar: TButton
+          Anchors = []
+          Position.X = 280.000000000000000000
+          Position.Y = 14.000000000000000000
+          TabOrder = 0
+          Text = 'Registrar'
+          TextSettings.Trimming = None
+          OnClick = tbtn_registrarClick
+        end
+      end
+    end
+  end
+  object FDCon_academia: TFDConnection
+    Params.Strings = (
+      
+        'Database=D:\mis_proyectos\proyectos_delphi\academia\db\ACADEMIA.' +
+        'FDB'
+      'User_Name=SYSDBA '
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    Left = 120
+    Top = 408
+  end
+  object FDQ_verificarUsuario: TFDQuery
+    Connection = FDCon_academia
+    SQL.Strings = (
+      'SELECT COUNT(*) FROM usuarios WHERE usuario = :usuario'
+      '')
+    Left = 240
+    Top = 408
+    ParamData = <
+      item
+        Name = 'USUARIO'
+        DataType = ftWideString
+        ParamType = ptInput
+        Size = 50
+        Value = Null
+      end>
+  end
+  object FDQ_insertarUsuario: TFDQuery
+    Connection = FDCon_academia
+    SQL.Strings = (
+      'INSERT INTO usuarios ('
+      
+        'nombre, apellido1, apellido2, telefono, email, usuario, pass, ru' +
+        'ta_imagen, rol_id'
+      ') VALUES ('
+      
+        '  :nombre, :apellido1, :apellido2, :telefono, :email, :usuario, ' +
+        ':pass, NULL, 1'
+      ')')
+    Left = 488
+    Top = 408
+    ParamData = <
+      item
+        Name = 'NOMBRE'
+        ParamType = ptInput
+      end
+      item
+        Name = 'APELLIDO1'
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'APELLIDO2'
+        ParamType = ptInput
+      end
+      item
+        Name = 'TELEFONO'
+        ParamType = ptInput
+      end
+      item
+        Name = 'EMAIL'
+        ParamType = ptInput
+      end
+      item
+        Name = 'USUARIO'
+        ParamType = ptInput
+      end
+      item
+        Name = 'PASS'
+        ParamType = ptInput
+      end>
+  end
+  object FDQ_verificarEmail: TFDQuery
+    Connection = FDCon_academia
+    SQL.Strings = (
+      'SELECT COUNT(*) FROM usuarios WHERE email = :email')
+    Left = 352
+    Top = 416
+    ParamData = <
+      item
+        Name = 'EMAIL'
+        DataType = ftWideString
+        ParamType = ptInput
+        Size = 100
+        Value = Null
+      end>
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDCon_academia
+    Left = 568
+    Top = 400
+  end
+end

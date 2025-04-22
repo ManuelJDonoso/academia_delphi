@@ -1,0 +1,9 @@
+inherited frmRegistro_Windows: TfrmRegistro_Windows
+  DesignerMasterStyle = 0
+  inherited ScaledLayout1: TScaledLayout
+    inherited VertScrollBox1: TVertScrollBox
+      Viewport.Width = 640.000000000000000000
+      Viewport.Height = 480.000000000000000000
+    end
+  end
+end

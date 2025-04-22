@@ -1,0 +1,14 @@
+__history/
+__recovery/
+*.~*
+*.dcu
+*.exe
+*.dll
+*.identcache
+*.local
+*.log
+*.map
+*.dproj.local
+*.tvsconfig
+*.suo
+*.bak
